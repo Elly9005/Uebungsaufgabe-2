@@ -10,7 +10,7 @@ if(s1.equals("Blabla")) {
 # Aufgabe 1
 Schreiben Sie eine Methode `public static void printGreeting(String name)`, die eine persönliche Begrüßung für einen gegebenen Namen ausgibt und auf die Konsole printed.
 
-Beispiel: Beim Aufruf `printGreeting("Tom")`, gibt die Methode "Hallo Tom" zurück.
+Beispiel: Beim Aufruf `printGreeting("Tom")`, gibt die Methode "Hallo Tom" aus.
 
 # Aufgabe 2
 Schreiben Sie eine Methode `public static void calculate(int numOne, int numTwo, String operation)`, die zwei Zahlen nimmt, die übergebene Rechenoperation durchführt und das Ergebnis auf der Konsole ausgibt.
@@ -25,6 +25,6 @@ Schreiben Sie zwei Methoden, die jeweils den Umfang von einem Quadrat, bzw. von 
 Das Format der Ausgabe sollte sein: "Der Umfang von einem [Quadrat/Rechteck] mit den Kantenlängen [Längen] beträgt [Umfang]". Ersetzen Sie die Inhalte in den eckigen Klammern entsprechend.
 
 Für das Quadrat sieht die Methodensignatur so aus: `public static double calculatePerimeter(double sideLength)`.
-Für das Rechteck soll die Methode den gleichen Namen haben (calculatePerimeter), sie unterscheidet sich zu der anderen Methode nur durch die übergebenen Argumente.
+Für das Rechteck soll die Methode den gleichen Namen haben (calculatePerimeter), sie unterscheidet sich zu der anderen Methode nur durch die übergebenen Argumente (ein Rechteck hat ja zwei Seitenlängen, die beide übergeben werden müssen - überlegen Sie sich, was sinnvolle Argumente wären).
 Längen können nicht negativ sein. Wenn eins der Argumente negativ ist, geben Sie "Negative Kantenlängen sind nicht möglich" aus.
 
